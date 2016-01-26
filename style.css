@@ -1,0 +1,31 @@
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('img/downbg.jpg');
+  background-size: 1300px 900px;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  width: 1400px;
+  height: 800px;
+
+    -webkit-filter: blur(6px);
+  filter: blur(6px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.usr {
+  position: absolute;
+  left: 50%
+  top: 50%;
+}
